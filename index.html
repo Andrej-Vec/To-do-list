@@ -4,19 +4,25 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220912145302">
 	<title>To do list</title>
 </head>
 
-<body>
+<body class="">
 	<header class="header">
   <div class="header__container">
-    <h1 class="header__title">To do list</h1>
+    <div class="header__top">
+      <h1 class="header__title">To do list</h1>
+      <div class="header__btns">
+        <button class="header__btn header__btn_left">white theme</button>
+        <button  class="header__btn header__btn_right _active">dark theme</button>
+      </div>
+    </div>
     <form action="#" class="header__form form">
-        <div class="form__block block-form">
-            <input type="text" placeholder="What do you have planned?" name="act" class="block-form__btn">
-        </div>
-        <input type="submit" class="form__submit" value="Add task">
+      <div class="form__block block-form">
+        <input type="text" placeholder="What do you have planned?" name="act" class="block-form__btn">
+      </div>
+      <input type="submit" class="form__submit" value="Add task">
     </form>
   </div>
 </header>
@@ -37,10 +43,12 @@
 		</section>
 
 	</main>
-	<footer>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore qui repudiandae voluptate, magni iste tenetur expedita ipsum tempore? Aspernatur nemo illum explicabo quidem totam dolorem perferendis! Quo reprehenderit ut eveniet!
+	<footer class="footer">
+    <div class="footer__container">
+        Link to my <a href="https://github.com/Andrej-Vec" target="_blank">GitHub</a>
+    </div>
 </footer>
-	<script src="js/app.min.js"></script>
+	<script src="js/app.min.js?_v=20220912145302"></script>
 </body>
 
 </html>
